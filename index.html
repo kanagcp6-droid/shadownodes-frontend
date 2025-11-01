@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShadowNodes - Premium Hosting Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background -->
+    <div class="bg-grid"></div>
+    <div class="bg-gradient"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text">SHADOW<span class="nodes">NODES</span></span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#minecraft" class="nav-link">Minecraft</a></li>
+                <li><a href="#bothost" class="nav-link">BotHost</a></li>
+                <li><a href="#vps" class="nav-link">VPS</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <a href="https://discord.gg/RT8Z43PR" target="_blank" class="btn-discord">
+                <i class="fab fa-discord"></i>
+                <span>Join Discord</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Premium Hosting<br>
+                    <span class="gradient-text">Built for Performance</span>
+                </h1>
+                <p class="hero-desc">
+                    Experience enterprise-grade hosting with 99.9% uptime, DDoS protection, 
+                    and lightning-fast NVMe storage across India, Singapore & Germany.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#minecraft" class="btn btn-primary">
+                        <span>Get Started</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="https://discord.gg/RT8Z43PR" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-discord"></i>
+                        <span>Join Discord</span>
+                    </a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>DDoS Protected</span>
+                    </div>
+                    <div class="feature-badge">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant Setup</span>
+                    </div>
+                    <div class="feature-badge">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Minecraft Hosting -->
+    <section id="minecraft" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Minecraft Hosting</span>
+                <h2 class="section-title">Minecraft Server Plans</h2>
+                <p class="section-subtitle">Powered by Ryzen, AMD EPYC & Intel processors with L3/L4 DDoS protection</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Gravel Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Gravel</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">70</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>2GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>100% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>12GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>1 Port</span></li>
+                        <li><i class="fas fa-check"></i> <span>1 Database</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Andesite Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Andesite</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">150</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>3GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>150% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>18GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>2 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>2 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Cobblestone Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Cobblestone</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">230</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>4GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>180% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>25GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>2 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Stone Plan -->
+                <div class="price-card featured">
+                    <div class="popular-badge">Popular</div>
+                    <div class="card-header">
+                        <h3 class="plan-name">Stone</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">310</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>5GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>200% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>30GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>2 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Coal Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Coal</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">400</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>6GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>250% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>36GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Copper Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Copper</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">460</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>7GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>280% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>42GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Iron Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Iron</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">560</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>8GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>300% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>48GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>5 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>6 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Gold Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Gold</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">630</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>10GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>350% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>60GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>5 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>6 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Emerald Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Emerald</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">750</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>12GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>400% CPU</span></li>
+                        <li><i class="fas fa-check"></i> <span>72GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>6 Ports</span></li>
+                        <li><i class="fas fa-check"></i> <span>8 Databases</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <h4>Additional Details</h4>
+                <ul>
+                    <li><i class="fas fa-globe"></i> Location: India, Singapore & Germany</li>
+                    <li><i class="fas fa-microchip"></i> CPU: Ryzen, AMD EPYC & Intel</li>
+                    <li><i class="fas fa-shield-alt"></i> L3/L4 DDoS Protection</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- BotHost -->
+    <section id="bothost" class="pricing-section alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Bot Hosting</span>
+                <h2 class="section-title">Discord Bot Hosting</h2>
+                <p class="section-subtitle">24/7 uptime for your Discord bots with premium resources</p>
+            </div>
+
+            <div class="pricing-grid-3">
+                <!-- Starter Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Starter</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">30</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>1GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>10GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>1 Database</span></li>
+                        <li><i class="fas fa-check"></i> <span>24/7 Uptime</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="price-card featured">
+                    <div class="popular-badge">Recommended</div>
+                    <div class="card-header">
+                        <h3 class="plan-name">Professional</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">60</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>2GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>20GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Databases</span></li>
+                        <li><i class="fas fa-check"></i> <span>24/7 Uptime</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Enterprise</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">120</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>4GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>40GB Disk</span></li>
+                        <li><i class="fas fa-check"></i> <span>8 Databases</span></li>
+                        <li><i class="fas fa-check"></i> <span>24/7 Uptime</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VPS Hosting -->
+    <section id="vps" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">VPS Hosting</span>
+                <h2 class="section-title">Cheap VPS Hosting Plans</h2>
+                <p class="section-subtitle">Powered by Ryzen 9 processors with NVMe SSD & full root access</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Basic -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Basic</h3>
+                        <p class="plan-tier">Tier 1</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">160</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>6GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>1 Core</span></li>
+                        <li><i class="fas fa-check"></i> <span>20GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Standard -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Standard</h3>
+                        <p class="plan-tier">Tier 2</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">200</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>12GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>2 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>30GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Pro -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Pro</h3>
+                        <p class="plan-tier">Tier 3</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">240</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>16GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>50GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Elite T4 -->
+                <div class="price-card featured">
+                    <div class="popular-badge">Best Value</div>
+                    <div class="card-header">
+                        <h3 class="plan-name">Elite</h3>
+                        <p class="plan-tier">Tier 4</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">270</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>18GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>70GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Elite T5 -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Elite</h3>
+                        <p class="plan-tier">Tier 5</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">300</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>20GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>4 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>80GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Elite T6 -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Elite</h3>
+                        <p class="plan-tier">Tier 6</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">350</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>24GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>6 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>100GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Elite T7 -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Elite</h3>
+                        <p class="plan-tier">Tier 7</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">400</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>28GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>6 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>120GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+
+                <!-- Elite T8 -->
+                <div class="price-card">
+                    <div class="card-header">
+                        <h3 class="plan-name">Elite</h3>
+                        <p class="plan-tier">Tier 8</p>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">800</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> <span>30GB RAM</span></li>
+                        <li><i class="fas fa-check"></i> <span>8 Cores</span></li>
+                        <li><i class="fas fa-check"></i> <span>150GB NVMe SSD</span></li>
+                        <li><i class="fas fa-check"></i> <span>Full Root Access</span></li>
+                        <li><i class="fas fa-check"></i> <span>Private IPv4</span></li>
+                    </ul>
+                    <button class="plan-btn payment-btn">
+                        <span>Buy Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="additional-info">
+                <h4>All Plans Include</h4>
+                <ul>
+                    <li><i class="fas fa-check"></i> Full Root Access</li>
+                    <li><i class="fas fa-check"></i> DDoS Protection</li>
+                    <li><i class="fas fa-check"></i> Asia Location</li>
+                    <li><i class="fas fa-check"></i> Ubuntu / Debian OS</li>
+                    <li><i class="fas fa-check"></i> NVMe Storage</li>
+                    <li><i class="fas fa-check"></i> Monthly Billing</li>
+                    <li><i class="fas fa-check"></i> Pterodactyl + Wings Supported</li>
+                    <li><i class="fas fa-check"></i> Private IPv4</li>
+                    <li><i class="fas fa-times"></i> No Refunds</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Need Help?</h2>
+                <p class="section-subtitle">Our support team is ready to assist you 24/7</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Support</h3>
+                    <p>rolecraftyt@gmail.com</p>
+                    <a href="mailto:rolecraftyt@gmail.com" class="contact-link">
+                        Send Email <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <h3>Discord Server</h3>
+                    <p>Join our community</p>
+                    <a href="https://discord.gg/RT8Z43PR" target="_blank" class="contact-link">
+                        Join Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span>SHADOW<span class="nodes">NODES</span></span>
+                    </div>
+                    <p>Premium hosting solutions with enterprise-grade infrastructure and 24/7 support.</p>
+                    <div class="social-links">
+                        <a href="https://discord.gg/RT8Z43PR" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#minecraft">Minecraft Hosting</a></li>
+                        <li><a href="#bothost">Bot Hosting</a></li>
+                        <li><a href="#vps">VPS Hosting</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="https://discord.gg/RT8Z43PR" target="_blank">Discord</a></li>
+                        <li><a href="mailto:rolecraftyt@gmail.com">Email</a></li>
+                        <li><a href="#">Documentation</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ShadowNodes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Razorpay Checkout SDK -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <!-- Payment Integration -->
+    <script src="payment.js"></script>
+</body>
+</html>
