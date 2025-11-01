@@ -1,6 +1,6 @@
 // Payment Configuration
 // UPDATE THIS URL to your Pterodactyl server URL
-const BACKEND_URL = 'http://play.realnightmare.fun:25578';
+const BACKEND_URL = 'http://34.131.136.146';
 
 // For testing locally:
 // const BACKEND_URL = 'http://localhost:3000';
